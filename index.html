@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>25-Year Reunion Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+
+    .invitation-frame {
+      position: relative;
+      background: #f9f9f9; /* Light background color inside the frame */
+      padding: 40px 25px;
+      border: 15px solid #f8d7da; /* Soft pinkish border for the photo frame */
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for 3D photo frame effect */
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      background: linear-gradient(135deg, #fff0f6, #ffe5f9); /* Soft pink gradient inside the frame */
+    }
+
+    /* Inner border to give a realistic frame look */
+    .invitation-frame:before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      border: 10px solid #ffb6d8; /* Soft pink border */
+      border-radius: 15px;
+      z-index: 1;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4em;
+      color: #f77f85; /* Bright pink for the main heading */
+      margin-bottom: 10px;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Darker shadow for contrast */
+      z-index: 2;
+    }
+
+    h2 {
+      font-size: 2.5em;
+      color: #f1a7f1; /* Light purple for subheading */
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Darker shadow for contrast */
+      z-index: 2;
+    }
+
+    p {
+      font-size: 1.4em;
+      color: #4e4b6d; /* Darker text for readability */
+      line-height: 1.6;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for clarity */
+      z-index: 2;
+    }
+
+    .important-text {
+      color: #ffcc00; /* Bright yellow for important text */
+    }
+
+    .class-info {
+      color: #f96d9f; /* Vibrant Pink for Class name */
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 25px;
+      color: #ff8b8d; /* Soft pink for the footer */
+      font-style: italic;
+      font-size: 1.1em;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Stronger shadow for better readability */
+    }
+
+    .details {
+      color: #fdbd59; /* Soft yellow for Date, Time, Location */
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5em;
+      }
+
+      h2 {
+        font-size: 1.8em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="invitation-frame">
+    <h1>You're Invited!</h1>
+    <h2>25-Year Class Reunion 🎓</h2>
+    <p class="class-info">Class of 2000-2001</p>
+    <p class="details">📅 <strong>Date:</strong> May 25, 2025</p>
+    <p class="details">🕙 <strong>Time:</strong> 10:00 AM onward</p>
+    <p class="details">📍 <strong>Location:</strong> Kundanam Banquet Hall, Sangareddy</p>
+    <p>Join us to relive old memories, reconnect with friends,<br>
+    and celebrate 25 years of laughter, growth, and friendship!</p>
+    <p class="footer">We can't wait to see you there! 💖</p>
+  </div>
+</body>
+</html>
